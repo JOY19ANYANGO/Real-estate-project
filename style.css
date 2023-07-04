@@ -123,6 +123,7 @@ body, h1, p {
   #agent2,
   #agent3{
     border-style:solid;
+    background-color: lavender;
     
   }
   .agentcontainer{
@@ -131,13 +132,44 @@ body, h1, p {
   #agents{
     background-image: url(bac.jpg);
   }
+ #agents h2{
+  color: blueviolet;
+ }
   
+ .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {  
+  background: red;  
+  color: white;  
+} 
+#phone{
+  font-size: medium;
+} 
   
+ #about{
+  text-align: center;
+ } 
   
-  
-  
-  
-  
+  .contactabout{
+    background-image: url(h.jpg);
+  }
   
   
   
