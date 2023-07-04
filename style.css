@@ -1,0 +1,144 @@
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply basic styling to the page */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+    padding: 20px;
+  }
+  
+  /* Style the header section */
+  #home {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: blue;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: green;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the user profile section */
+  .Profile {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .user {
+    width: 80px;
+    height: 80px;
+    background-color: purple;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  
+  p {
+    font-size: x-large;
+    margin-top: 10px;
+  }
+  
+  /* Style the "Discover Wonderful Homes" section */
+  #discover {
+    font-size: 32px; /* Increase font size */
+    margin-bottom: 20px;
+    text-align: center;
+    color: blueviolet;
+    text-transform: uppercase; /* Convert text to uppercase */
+    font-weight: bold; /* Add font weight */
+    letter-spacing: 2px; /* Add letter spacing */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add text shadow */
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .img1,
+  .img2,
+  .img3 
+  {
+    width: calc(33.33% - 20px);
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  #home{
+    background-image: url(./hm.jpg);
+    background-color: aqua;
+  }
+  #available{
+    background-image: url(./a.jpg);
+    margin-top: 0%;
+  }
+  #available h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: blueviolet;
+  }
+  
+  #available p {
+    font-size: x-large;
+    margin-bottom: 20px;
+  }
+  
+  #available button {
+    display: block;
+    width: 100%;
+    max-width: 300px; /* Set a maximum width for the buttons */
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: green;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  .img4,
+  .img5,
+  .img6 
+  {
+    width: 7cm;
+    height: 7cm;
+  }
+  
+  #agent1,
+  #agent2,
+  #agent3{
+    border-style:solid;
+    
+  }
+  .agentcontainer{
+    display: flex;
+  }
+  #agents{
+    background-image: url(bac.jpg);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
