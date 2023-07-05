@@ -69,11 +69,6 @@ body, h1, p {
     justify-content: space-between;
     flex-wrap: wrap;
   }
-  .image-container > div {
-   
-    margin-bottom: 20px;
-    flex-basis: 100%;
-  }
   
   .img1,
   .img2,
@@ -106,7 +101,7 @@ body, h1, p {
   #available button {
     display: block;
     width: 100%;
-    max-width: 300px; /* Set a maximum width for the buttons */
+    max-width: 300px; 
     margin: 0 auto;
     padding: 10px 20px;
     font-size: 18px;
@@ -176,36 +171,6 @@ body, h1, p {
     flex-wrap: wrap;
   
   }
-  .agentcontainer > div {
-    flex-basis: 100%;
-  }
-  @media screen and (min-width: 600px) {
-    .agentcontainer{
-      flex-wrap: nowrap;
-    }
-    .image-container{
-      flex-wrap: nowrap;
-    }
-    .agentcontainer > div {
-      flex-basis: 33%;
-    }
-    .image-container > div {
-   
-     
-      flex-basis: 33%;
-    }
-    
-  }
-
-  /* Styles for medium screens */
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
-    
-  }
-
-  /* Styles for small screens */
-  @media screen and (max-width: 767px) {
-    
-  }
-
-
+  
+  
   
