@@ -69,6 +69,10 @@ body, h1, p {
     justify-content: space-between;
     flex-wrap: wrap;
   }
+  .image-container > div {
+    width: 30%;
+    margin-bottom: 20px;
+  }
   
   .img1,
   .img2,
@@ -169,7 +173,25 @@ body, h1, p {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+  
   }
-  
-  
+  .agentcontainer > div {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  @media screen and (min-width: 1200px) {
+    
+  }
+
+  /* Styles for medium screens */
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    
+  }
+
+  /* Styles for small screens */
+  @media screen and (max-width: 767px) {
+    
+  }
+
+
   
