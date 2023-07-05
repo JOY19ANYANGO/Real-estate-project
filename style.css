@@ -74,9 +74,9 @@ body, h1, p {
   .img2,
   .img3 
   {
-    width: calc(33.33% - 20px);
+    width: 15cm;
     height: 300px;
-    object-fit: cover;
+   
     margin-bottom: 20px;
   }
   #home{
@@ -126,9 +126,7 @@ body, h1, p {
     background-color: lavender;
     
   }
-  .agentcontainer{
-    display: flex;
-  }
+  
   #agents{
     background-image: url(bac.jpg);
   }
@@ -170,7 +168,11 @@ body, h1, p {
   .contactabout{
     background-image: url(h.jpg);
   }
-  
+  .agentcontainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
   
   
   
