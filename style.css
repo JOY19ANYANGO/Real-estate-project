@@ -70,8 +70,9 @@ body, h1, p {
     flex-wrap: wrap;
   }
   .image-container > div {
-    width: 30%;
+   
     margin-bottom: 20px;
+    flex-basis: 100%;
   }
   
   .img1,
@@ -176,10 +177,23 @@ body, h1, p {
   
   }
   .agentcontainer > div {
-    width: 30%;
-    margin-bottom: 20px;
+    flex-basis: 100%;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 600px) {
+    .agentcontainer{
+      flex-wrap: nowrap;
+    }
+    .image-container{
+      flex-wrap: nowrap;
+    }
+    .agentcontainer > div {
+      flex-basis: 33%;
+    }
+    .image-container > div {
+   
+     
+      flex-basis: 33%;
+    }
     
   }
 
