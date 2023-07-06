@@ -11,10 +11,32 @@
     <a href="#home">Home</a>
     <a href="#available">Available Houses</a>
     <a href="#contactabout">Contact About</a>
+    <a href="#agents">Agents<a>
   </nav>
+
   <section id="home">
     <h1>BEACHFRONT REAL ESTATE</h1>
-    <button id="login">LOG IN</button>
+    <button id="loginBtn" onclick="toggleForm()">LOGIN</button>
+    <form id="loginForm" >
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
     <h2 id="discover">DISCOVER WONDERFUL HOMES</h2>
     <p>Beachfront real estate offers affordable housing to all.</p>
     <p>The houses are situated in strategic areas with useful social amenities such as schools, hospitals, and shopping malls.</p>

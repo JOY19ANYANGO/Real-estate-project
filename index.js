@@ -31,6 +31,10 @@ function fetchAndRenderHomeDetails() {
           <p>Features: ${house.features}</p>
           <p>Amenities: ${house.amenities}</p>
           <img src="${house.image}" id="fetchedimages">
+          <video width="320" height="320" autoplay muted>
+          <source src=${house.video} type="video/mp4">
+          Your browser does not support the video tag.
+           </video><br><br>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
           <i  id="heart-icon"class="fa fa-heart" aria-hidden="true" onclick="toggleHeartColor(this)"></i>
 
@@ -70,6 +74,10 @@ function fetchAndRenderRentalsDetails() {
           <p>Amenities: ${house.amenities}</p>
           <p>Price: ${house.price}</p>
           <img src="${house.image}" id="fetchedimages">
+          <video width="320" height="320" autoplay muted>
+          <source src=${house.video} type="video/mp4">
+          Your browser does not support the video tag.
+           </video><br><br>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
           <i id="heart-icon" class="fa fa-heart" aria-hidden="true" onclick="toggleHeartColor(this)"></i>
 
@@ -86,4 +94,8 @@ function fetchAndRenderRentalsDetails() {
 
 function toggleHeartColor(element) {
   element.classList.toggle('clicked');
+}
+function toggleForm() {
+  var form = document.getElementById("loginForm");
+  form.style.display = form.style.display === "none" ? "block" : "none";
 }
