@@ -180,6 +180,10 @@ body, h1, p {
     flex-wrap: wrap;
   
   }
+  #fetchedimages{
+    width: 500px;
+    height: 300px;
+  }
   
   
   
