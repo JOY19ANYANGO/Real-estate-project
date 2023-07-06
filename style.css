@@ -185,5 +185,8 @@ body, h1, p {
     height: 300px;
   }
   
-  
+ .housedetails{
+  display:flex;
+  justify-content: space-between;
+ } 
   
