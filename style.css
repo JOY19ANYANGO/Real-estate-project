@@ -212,6 +212,15 @@ nav a {
 }
 
 nav a:first-child {
-  margin-left: 0; /* Remove left margin for the first link */
+  margin-left: 0; 
 }
-/* Set the height of the sections to occupy the entire viewport */
+
+#heart-icon {
+  color: white;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+#heart-icon.clicked {
+  color: red;
+}

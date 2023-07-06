@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
   homeBtn.addEventListener("click", fetchAndRenderHomeDetails);
   rentalBtn.addEventListener("click", fetchAndRenderRentalsDetails);
-});
+  
+
 
 function fetchAndRenderHomeDetails() {
   const ids = [1, 2, 3]; // IDs of the houses you want to fetch
@@ -30,8 +31,12 @@ function fetchAndRenderHomeDetails() {
           <p>Features: ${house.features}</p>
           <p>Amenities: ${house.amenities}</p>
           <img src="${house.image}" id="fetchedimages">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <i  id="heart-icon"class="fa fa-heart" aria-hidden="true" onclick="toggleHeartColor(this)"></i>
+
+`
           
-        `;
+        
         details.appendChild(houseElement);
       });
     })
@@ -65,12 +70,20 @@ function fetchAndRenderRentalsDetails() {
           <p>Amenities: ${house.amenities}</p>
           <p>Price: ${house.price}</p>
           <img src="${house.image}" id="fetchedimages">
-          <button class="like-btn">Like</button>
-        `;
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <i id="heart-icon" class="fa fa-heart" aria-hidden="true" onclick="toggleHeartColor(this)"></i>
+
+          `
         info.appendChild(houseElement);
       });
     })
     .catch((error) => {
       console.error('Error fetching house details:', error);
     });
+}
+
+})
+
+function toggleHeartColor(element) {
+  element.classList.toggle('clicked');
 }
