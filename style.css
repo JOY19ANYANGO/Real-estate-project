@@ -75,10 +75,10 @@ body, h1, p {
   
   .img1,
   .img2,
-  .img3 
-  {
-    width: 500px;
-    height: 300px;
+  .img3,
+  .img7{
+    width: 400px;
+    height: 400px;
    
     margin-bottom: 20px;
   }
@@ -116,8 +116,8 @@ body, h1, p {
   }
   .img4,
   .img5,
-  .img6 
-  {
+  .img6, 
+  .img8{
     width: 7cm;
     height: 7cm;
   }
