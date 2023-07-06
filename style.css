@@ -140,26 +140,31 @@ body, h1, p {
   width: 50px;
   text-align: center;
   text-decoration: none;
+  border-radius: 50%;
 }
 
 
 .fa-facebook {
   background: #3B5998;
   color: white;
+  font-size: x-large;
 }
 
 
 .fa-twitter {
   background: #55ACEE;
   color: white;
+  font-size: x-large;
 }
 .fa-instagram {  
   background: red;  
-  color: white;  
+  color: white; 
+  font-size: x-large; 
 } 
 .fa-whatsapp {  
   background: green;  
   color: white;  
+  font-size: x-large;
 } 
 
  #about{
