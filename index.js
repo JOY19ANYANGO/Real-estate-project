@@ -30,6 +30,7 @@ function fetchAndRenderHomeDetails() {
           <p>Features: ${house.features}</p>
           <p>Amenities: ${house.amenities}</p>
           <img src="${house.image}" id="fetchedimages">
+          
         `;
         details.appendChild(houseElement);
       });
@@ -64,6 +65,7 @@ function fetchAndRenderRentalsDetails() {
           <p>Amenities: ${house.amenities}</p>
           <p>Price: ${house.price}</p>
           <img src="${house.image}" id="fetchedimages">
+          <button class="like-btn">Like</button>
         `;
         info.appendChild(houseElement);
       });

@@ -2,6 +2,7 @@
 body, h1, p {
     margin: 0;
     padding: 0;
+   
   }
   
   /* Apply basic styling to the page */
@@ -24,7 +25,9 @@ body, h1, p {
     color: blue;
   }
   
-  button {
+   #rentalbtn,
+   #homebtn,
+   #login{
     padding: 10px 20px;
     font-size: 18px;
     background-color: green;
@@ -171,7 +174,7 @@ body, h1, p {
   text-align: center;
  } 
   
-  .contactabout{
+  #contactabout{
     background-image: url(h.jpg);
   }
   .agentcontainer {
@@ -189,4 +192,26 @@ body, h1, p {
   display:flex;
   justify-content: space-between;
  } 
-  
+ 
+
+ nav {
+  background-color: #f5f5f5;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-left: 10px; /* Add margin between the links */
+  border: 1px solid #ccc; /* Add border around each link */
+}
+
+nav a:first-child {
+  margin-left: 0; /* Remove left margin for the first link */
+}
+/* Set the height of the sections to occupy the entire viewport */
