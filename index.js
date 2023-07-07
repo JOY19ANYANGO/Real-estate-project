@@ -30,6 +30,7 @@ function fetchAndRenderHomeDetails() {
           <p>Location: ${house.location}</p>
           <p>Features: ${house.features}</p>
           <p>Amenities: ${house.amenities}</p>
+          <p>Price: ${house.price}</p>
           <img src="${house.image}" id="fetchedimages">
           <video width="500" height="320" autoplay muted>
           <source src=${house.video} type="video/mp4">
