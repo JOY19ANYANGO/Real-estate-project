@@ -96,6 +96,6 @@ function toggleHeartColor(element) {
   element.classList.toggle('clicked');
 }
 function toggleForm() {
-  var form = document.getElementById("loginForm");
+  let form = document.getElementById("loginForm");
   form.style.display = form.style.display === "none" ? "block" : "none";
 }
