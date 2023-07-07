@@ -8,7 +8,7 @@
         "amenities": "Valley arcade mall, Brookhouse schools,Penda Medical Centre ",
         "price":"kshs 6000000",
         "image": "https://i.pinimg.com/originals/59/d8/a8/59d8a817c948513b7e0979261571e15d.jpg",
-      "video":"m.mp4"
+      "video":"./video/m.mp4"
       },
       {
         "id": "2",
@@ -17,8 +17,8 @@
         "features": "5 bedroom 3 bathrooms 2 sitting rooms ,Swimming Pool",
         "amenities": " Mountain view mall, Braeburn schools,Furaha Medical Centre ",
         "price":"kshs 5000000",
-        "image": "h3.jpg",
-        "video":"h3.mp4"
+        "image": "./photo/h3.jpg",
+        "video":"./video/h3.mp4"
       },
       {
         "id": "3",
@@ -27,8 +27,8 @@
         "features": "5 bedroom 4 bathrooms 2 sitting rooms ,Swimming Pool,DSQ",
         "amenities": "Greenhouse mall, Brookhouse schools,German Medical Centre ",
         "price":"kshs 8000000",
-        "image": "h.jpg",
-        "video":"w.mp4"
+        "image": "./photo/h.jpg",
+        "video":"./video/w.mp4"
       },
       {
         "id": "4",
@@ -37,8 +37,8 @@
         "features": " 3 bedroom  master bedroom ensuit 1 sitting rooms ,Precious Garden",
         "amenities": "Junction mall, Braeburn schools,Tulivu Medical Centre ",
         "price":"kshs 70000per month",
-        "image": "prec.jpg",
-        "video":"prec.mp4"
+        "image": "./photo/prec.jpg",
+        "video":"./video/prec.mp4"
       },
       {
         "id": "5",
@@ -48,7 +48,7 @@
         "amenities": "Greenhouse mall, Brookhouse schools,German Medical Centre ",
         "price":"kshs 65000per month",
         "image": "https://media.istockphoto.com/id/1177797403/photo/modern-apartment-buildings-on-a-sunny-day-with-a-blue-sky.jpg?s=2048x2048&w=is&k=20&c=FlJtLqUTUWtG9jD5aSVqA0hlf8NWzF1RdRVrFFJ6ho4=",
-        "video":"epic.mp4"
+        "video":"./video/epic.mp4"
       },
       {
         "id": "6",
@@ -57,8 +57,8 @@
         "features": "3 bedroom  master bedroom ensuit 1 sitting rooms ,Swimming Pool",
         "amenities": "Greenhouse mall, Brookhouse schools,German Medical Centre ",
         "price":"kshs 80000per month",
-        "image": "h2.jpg",
-        "video": "f.mp4"
+        "image": "./photo/h2.jpg",
+        "video": "./video/f.mp4"
       }
     ]
 }
