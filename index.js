@@ -31,7 +31,7 @@ function fetchAndRenderHomeDetails() {
           <p>Features: ${house.features}</p>
           <p>Amenities: ${house.amenities}</p>
           <img src="${house.image}" id="fetchedimages">
-          <video width="320" height="320" autoplay muted>
+          <video width="500" height="320" autoplay muted>
           <source src=${house.video} type="video/mp4">
           Your browser does not support the video tag.
            </video><br><br>
@@ -74,7 +74,7 @@ function fetchAndRenderRentalsDetails() {
           <p>Amenities: ${house.amenities}</p>
           <p>Price: ${house.price}</p>
           <img src="${house.image}" id="fetchedimages">
-          <video width="320" height="320" autoplay muted>
+          <video width="500" height="320" autoplay muted>
           <source src=${house.video} type="video/mp4">
           Your browser does not support the video tag.
            </video><br><br>
