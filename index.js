@@ -11,7 +11,7 @@ function fetchAndRenderHomeDetails() {
   const ids = [1, 2, 3]; // IDs of the houses you want to fetch
 
   const fetchRequests = ids.map((id) => {
-    return fetch(`http://localhost:3000/Houses/${id}`)
+    return fetch(`https://real-estate-project-bg5q568gf-joy19anyango.vercel.app/db.json/${id}`)
       .then((res) => res.json());
   });
 
@@ -53,7 +53,7 @@ function fetchAndRenderRentalsDetails() {
   const ids = [4, 5, 6]; // IDs of the houses you want to fetch
 
   const fetchRequests = ids.map((id) => {
-    return fetch(`http://localhost:3000/Houses/${id}`)
+    return fetch(`https://real-estate-project-bg5q568gf-joy19anyango.vercel.app/db.json/${id}`)
       .then((res) => res.json());
   });
 
