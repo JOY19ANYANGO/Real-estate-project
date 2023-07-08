@@ -11,7 +11,7 @@ function fetchAndRenderHomeDetails() {
   const ids = [1, 2, 3]; // IDs of the houses you want to fetch
 
   const fetchRequests = ids.map((id) => {
-    return fetch(` http://localhost:3000/Houses/${id}`)
+    return fetch(` https://joy19anyango.github.io/Real-estate-project/db.json/${id}`)
       .then((res) => res.json());
   });
 
@@ -54,7 +54,7 @@ function fetchAndRenderRentalsDetails() {
   const ids = [4, 5, 6]; // IDs of the houses you want to fetch
 
   const fetchRequests = ids.map((id) => {
-    return fetch(` http://localhost:3000/Houses/${id}`)
+    return fetch(` https://joy19anyango.github.io/Real-estate-project/db.json/${id}`)
       .then((res) => res.json());
   });
 
