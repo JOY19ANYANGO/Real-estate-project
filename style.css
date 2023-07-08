@@ -69,18 +69,22 @@ body, h1, p {
   
   .image-container {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: center;
   }
-  
+
+  .image-container img {
+    margin: 10px;
+    padding: 0;
+  }
   .img1,
-  .img2,
-  .img3,
-  .img7{
+  .img2{
     width: 400px;
     height: 400px;
    
     margin-bottom: 20px;
+  }
+  .img2{
+    right: 30px;
   }
   #home{
     background-image: url(./photo/hm.jpg);
@@ -179,10 +183,13 @@ body, h1, p {
   }
   .agentcontainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-  
   }
+    .agentcontainer div{
+      margin: 10px;
+    }
+  
   #fetchedimages{
     width: 500px;
     height: 300px;

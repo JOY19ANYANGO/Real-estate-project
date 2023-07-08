@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const fetchAndRenderHomeDetails = async () => {
     try {
       
-      const response = await fetch("https://api.jsonbin.io/v3/b/64a94f839d312622a37c3cff");
+      const response = await fetch("https://api.jsonbin.io/v3/b/64a998bb9d312622a37c58a7");
       const data = await response.json();
 
       const houses = data.record.Houses;
