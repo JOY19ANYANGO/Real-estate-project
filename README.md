@@ -56,5 +56,6 @@ The website contains a number  of features:
 * The contact section contains Beachfront Real Estate contacts including social media accounts and phone number.
 
 ## License.
+Author Joy Anyango
 
 [MIT](https://choosealicense.com/licenses/mit/)
