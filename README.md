@@ -35,17 +35,10 @@ $  cd Real-estate-project
 ```bash
 $ code .
 ```
-* Install JSON server using the following command.
-```bash
-$ npm install -g json.server
-```
+
 
 ## Usage
-* Ensure your JSON server is running by using the following the following command 
-```bash
-$ json-server --watch db.json
-```
-* Follow this link http://localhost:3000/houses  to ensure that json-server is running.
+
 * Open the index.html file in your browser.
 The website contains a number  of features:
 * It contains a navigation bar on the top which you can click depending on the section you want to navigate to.
