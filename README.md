@@ -45,7 +45,7 @@ $ npm install -g json.server
 ```bash
 $ json-server --watch db.json
 ```
-* Follow this link http://localhost:3000/films  to ensure that json-server is running.
+* Follow this link http://localhost:3000/houses  to ensure that json-server is running.
 * Open the index.html file in your browser.
 The website contains a number  of features:
 * It contains a navigation bar on the top which you can click depending on the section you want to navigate to.
