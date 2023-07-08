@@ -50,7 +50,7 @@ $ json-server --watch db.json
 The website contains a number  of features:
 * It contains a navigation bar on the top which you can click depending on the section you want to navigate to.
 * The home section contains a log in button which when you click a login form pops up.It also contain the website name and sample pictures of houses available.
-* The available houses section contains two buttons,one for rental and the other for homes.When you click each of the buttons the details for the houses are displayed.These include their images, location, tours, prices and amenities near them.The details also contains a like button.
+* The available houses section contains one button for homes.When you click  the button the details for the houses are displayed.These include their images, location, tours, prices and amenities near them.The details also contains a like button.
 * The agents section contains the images of the agents and their contact details.
 * The about section contains a brief description of Beachfront Real Estate.
 * The contact section contains Beachfront Real Estate contacts including social media accounts and phone number.
