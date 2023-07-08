@@ -4,6 +4,7 @@
 
 ## Table of contents.
 * Requirements.
+* Technologies used.
 * Installation.
 * Usage
 * License.
@@ -11,6 +12,12 @@
 ## Requirements
 * Smartphone/computer.
 * Stable network.
+
+## Technologies used
+* HTML
+* CSS
+* Javascript
+* JSON server
 
 ## Installation
 * Git clone this repository in your local machine using the following command.
