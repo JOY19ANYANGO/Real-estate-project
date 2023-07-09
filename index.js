@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", function() {
           <p>Features: ${house.features}</p>
           <p>Amenities: ${house.amenities}</p>
           <p>Price: ${house.price}</p>
-          <img src="${house.image}" id="fetchedimages">
-          <video width="500" height="320" autoplay muted>
+          <img src="${house.image}" id="fetchedimages" style="max-width: 100%;">
+          <video width="500" height="320"  style="max-width: 100%;" autoplay muted>
             <source src=${house.video} type="video/mp4">
             Your browser does not support the video tag.
           </video><br><br>

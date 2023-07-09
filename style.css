@@ -332,3 +332,54 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 }
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  h1 {
+    font-size: 24px; /* Reduce font size for smaller screens */
+  }
+
+  .img1,
+  .img2,
+  .img4,
+  .img5,
+  .img6,
+  .img8 {
+    width: 100%; /* Make images full width for smaller screens */
+    height: auto; /* Auto adjust height for smaller screens */
+  }
+
+  .agentcontainer {
+    flex-direction: column; /* Stack agents vertically for smaller screens */
+  }
+
+  nav {
+    justify-content: center; /* Center navigation links for smaller screens */
+  }
+
+  nav a {
+    margin-left: 0; /* Remove left margin for navigation links on smaller screens */
+  }
+
+  #loginForm {
+    width: 80%; /* Adjust login form width for smaller screens */
+  }
+
+  #contactabout,
+  .contactform {
+    padding: 10px; /* Adjust padding for contact section on smaller screens */
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%; /* Make input fields full width on smaller screens */
+  }
+}
+
+
+
+
+
+
