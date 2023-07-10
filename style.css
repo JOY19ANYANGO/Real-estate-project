@@ -73,7 +73,9 @@ body, h1, p {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  z-index: 1; /* Add a higher z-index */
 }
+
 
 /* Hide the images by default */
 .mySlides {
@@ -324,7 +326,9 @@ nav a:first-child {
   padding: 20px;
   background-color: #f1f1f1;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 2; /* Add a higher z-index */
 }
+
 
 #loginForm label {
   display: block;
