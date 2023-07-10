@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
           <p>Amenities: ${house.amenities}</p>
           <p>Price: ${house.price}</p>
           <img src="${house.image}" id="fetchedimages" style="max-width: 100%;">
-          <video width="500" height="320"  style="max-width: 100%;" autoplay muted>
+          <video width="500" height="320"  style="max-width: 100%;"autoplay muted>
             <source src=${house.video} type="video/mp4">
             Your browser does not support the video tag.
           </video><br><br>
@@ -45,4 +45,32 @@ function toggleHeartColor(element) {
 function toggleForm() {
   let form = document.getElementById("loginForm");
   form.style.display = form.style.display === "none" ? "block" : "none";
+}
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
 }
